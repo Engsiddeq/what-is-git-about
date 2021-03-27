@@ -8,24 +8,24 @@ Github is a website that let's you upload your code files on it.
 * create an ssh key on your local machine and assign it to your account on github so the website knows it's you and give you access to your repo's..
 [ازاي بقى الكلام ده خش على الرابط ده وانت تعرف ](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
-## دي الاوامر او الكوماندز اللي استخدمتها ف الgit
+## Basic Commands needed to commit and push changes online
 * `git clone "the ssh url"`
 * `git status` : showes you all the files that have been updated or created or deleted but haven't been saved in a commit yet
 * `git add .` tells git to track changes in all files in the cloned directory.. you can choose only one file to track and it will only track changes of that file
 * if you use `git status` again after the previous step it will show you what files git is tracking and what not .. changes in both
--------
+&NewLine;
 * Now we've specified to git with `git add` what files we want to commit , now to commit  'em you can simply type `git commit -m "some message to say"` -m means message and it can be one char but there must be a massege for the title of your commit to appear on github and you can add to messages one is a title and the other is a description
 `git commit -m "title of my commit" -m "this is a description"`
 * with that we've commited the changes on git localy
 حاجة كدة زي جيت على الجهاز اعتمد التغييرات بتاعتك وعرف هي ايه ولو حبيت تسلم هتسلم انهي ملف وتسيب انهي ملف
-.............................................
+&NewLine;
 * But to commit changes online you do that using `git push origin main`
 you can default the main branch by writing `git push -u origin main` for  the first time and from then you can just write `git push` and it will commit to the main branch automatically.
-
+&NewLine;
 ### طب ليه فيه كوميت وبوش وادد
-
 ادد عشان تختار اللفات اللي هتتسلم | كوميت عشان تحفظ الفيرجن من الملف اللي هيتسلم | بوش عشان تسلم
 ---------------|-------------------------------------------------|-------------------------------------
+&NewLine;
 فمثلا ممكن تسلم ملف مش هو اللي موجود حاليا على جهازك بل اخر ملف انت عملتله كوميت لجيت
 
 ## to start a repo locally and submit it on a remote place like github

@@ -23,9 +23,9 @@ Github is a website that let's you upload your code files on it.
 you can default the main branch by writing `git push -u origin main` for  the first time and from then you can just write `git push` and it will commit to the main branch automatically.
 
 ### طب ليه فيه كوميت وبوش وادد
----------------------
+
 ادد عشان تختار اللفات اللي هتتسلم | كوميت عشان تحفظ الفيرجن من الملف اللي هيتسلم | بوش عشان تسلم
----------------------
+
 فمثلا ممكن تسلم ملف مش هو اللي موجود حاليا على جهازك بل اخر ملف انت عملتله كوميت لجيت
 
 ## to start a repo locally and submit it on a remote place like github

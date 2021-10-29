@@ -1,18 +1,12 @@
-# 
-AAAAAAAAAAAAAAAAAAAAA
-This id my modifications 
-
-creating pull request 
-
+# بسم الله الرحمن الرحيم
 Git is any tool that let you keep track of your code changes overtime
-ibrahim allam
 
 Github is a website that let's you upload your code files on it.
 
 ## Things you should do first
 * install git
 * create an ssh key on your local machine and assign it to your account on github so the website knows it's you and give you access to your repo's..
-[ازاي بقى الكلام ده خش على الرابطل ده وانت تعرف ](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+[ازاي بقى الكلام ده خش على الرابط ده وانت تعرف ](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 ## Basic Commands needed to commit and push changes online
 * `git clone "the ssh url"`

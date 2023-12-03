@@ -29,6 +29,8 @@ you can default the main branch by writing `git push -u origin main` for  the fi
 ---------------|-------------------------------------------------|-------------------------------------
 &NewLine;
 فمثلا ممكن تسلم ملف مش هو اللي موجود حاليا على جهازك بل اخر ملف انت عملتله كوميت لجيت
+&NewLine;
+ملحوظة: لما بتعمل كوميت اي حاجة في الزون الانتقالية بتتمسح يعني مش هيكون فيه حاجة staged 
 
 ## to start a repo locally and submit it on a remote place like github
 1. create a new dir
@@ -52,7 +54,7 @@ Note that it's `git push origin master` NOT `git push origin main`
 * To switch between branches you use ` git checkout TheNameOfTheBranch`
 * now you can commit changes and push it to the new branch using `git push origin TheNameOfTheNewBranch`
 * if your current branch is mastere and you want to compare it with the TheNameOfTheNewBranch branch you just type `git diff TheNameOfTheNewBranch`
-* if you just typed `git diff` it will show you what have changed in your local repo since you last commited
+* if you just typed `git diff` it will show you what have changed in your local repo since you last commited (differences between your windows file and the commited files)
 * to merge both branches use ` git merge TheNameOfTheNewBranch`
 * merging is done usually using the UI on the github website not on the cmd
 * after merging two filies on  th website if you want to update your repo on your local machine you type `git pull origin master`
